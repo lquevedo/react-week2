@@ -1,3 +1,24 @@
 form {
-    margin: 20px;
+    margin-top: 16px;
+}
+
+.inputfield {
+    border: 1px solid black;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.inputbutton {
+    width: 80px;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    outline: none
+}
+
+button {
+    display: block;
+    margin: 10px auto;
 }

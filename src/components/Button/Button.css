@@ -1,8 +1,19 @@
 button {
     width: 80px;
-    margin: 10px;
-    padding: 6px;
+    margin: 6px;
+    padding: 10px;
     border-radius: 8px;
     border: 1px solid black;
     cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+button:focus {
+    background: rgb(41, 107, 161);
+    color: white;
 }

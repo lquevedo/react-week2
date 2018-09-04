@@ -3,13 +3,12 @@ import './Form.css';
 
 const form = (props) => {
     return(
-        <form className="Form">
-            <label>
-                Name:
-                <input type="text" id="forms" name="name" />
-            </label>
-            <input onClick={props.compareNums} type="submit" value="Submit" />
+        <form hidden={props.show} name="Form" onSubmit = {props.inputGuess}>
+            <input className="inputfield" type="text" id="input" placeholder="Guess here"/>
+            <input className="inputbutton" type="submit"/>
+            <button onClick={props.resetGame}>reset</button>
         </form>
+        
     )
 }
 
